@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #052759, #b1d7f2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+.icon {
+  width: 80px;
+  height: 80px;
+  background: rgb(0 0 0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.icon img {
+  width: 134px;
+}
+h1 {
+  color: white;
+}
+input {
+  width: 93%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  outline: none;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+input[type="submit"] {
+  background-color: #15a78c;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #4dbba7;
+  transform: scale(1.05);
+}
+.links {
+  margin-top: 10px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
